@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        int price;
+        String productName;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the name of the product: ");
+        productName = scanner.nextLine();
+
+        System.out.print("Enter the price of the product: ");
+        price = scanner.nextInt();
+
+        System.out.println("You have entered the product: " + productName + " for the price " + price + " UAH");
+    }
+}
