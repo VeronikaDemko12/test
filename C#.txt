@@ -1,0 +1,17 @@
+using System;
+
+class Program {
+    static void Main() {
+        int price;
+        string productName;
+
+        Console.Write("Enter the name of the product: ");
+        productName = Console.ReadLine();
+
+        Console.Write("Enter the price of the product: ");
+        price = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("You have entered the product: " + productName + " for the price " + price + " UAH ");
+
+    }
+}
